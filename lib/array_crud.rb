@@ -17,12 +17,12 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-  array.shift()
+  array.pop()
   return array
 end
 
 def remove_element_from_start_of_array(array)
-  array.pop()
+  array.shift()
   return array
 end
 
